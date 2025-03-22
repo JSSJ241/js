@@ -3,7 +3,7 @@ class View {
         this.app = document.getElementById('app');
 
         this.title = this.createElement('h1', 'title');
-        this.title.textContent = 'Github Search Users';
+        this.title.textContent = 'Github Search Repositories';
 
         this.searchLine = this.createElement('div', 'search-line');
         this.searchInput = this.createElement('input' , 'search-input');
